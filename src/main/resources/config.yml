@@ -1,0 +1,66 @@
+generalSettings:
+  confirmLifetime: 300 # 20 = 1 second
+
+teleportSettings:
+  requestLifetime: 300 # 20 = 1 second
+  teleportTime: 100 # 20 = 1 second
+
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "Minecraft"
+  username: "username"
+  password: "very secret"
+
+messages:
+  wrongUsage: "Wrong usage! %command%"
+  onlyPlayers: "Only players can use this command."
+  missingPermission: "You do not have the required permission to run this command."
+  invalidTarget: "Error! Please enter a valid target!"
+  fedSelf: "You have been fed!"
+  fedOther: "%player% has been fed!"
+  flyEnabledSelf: "Fly enabled!"
+  flyDisabledSelf: "Fly disabled!"
+  flyEnabledOther: "Fly enabled for %player%!"
+  flyDisabledOther: "Fly disabled for %player%!"
+  setGamemodeSelf: "Your gamemode has been set to %gamemode%!" # gamemodes: survival, creative, adventure, spectator
+  setGamemodeOther: "%player%'s gamemode has been set to %gamemode%!" # gamemodes: survival, creative, adventure, spectator
+  godEnabledSelf: "Godmode enabled!"
+  godDisabledSelf: "Godmode disabled!"
+  godEnabledOther: "Godmode enabled for %player%!"
+  godDisabledOther: "Godmode disabled for %player%!"
+  healSelf: "You have been healed!"
+  healOther: "You have healed %player%!"
+  noPendingTpRequest: "You don't have a pending teleportation request!"
+  hasAccepted: "%player% has accepted your teleportation request!"
+  afterTpaccept: "Teleporting in %teleportTime% seconds..."
+  teleportingStatusMessage: "Teleporting..."
+  tpCanceledByMovement: "Teleportation canceled! Dont move while teleporting!"
+  tpaSent: "Teleport request sent to %player%!"
+  tpaReceived: "%player% wants to teleport to you! \nUse /tpaccept to accept or /tpdeny to deny!"
+  tpahereSent: "Teleport request sent to %player%!"
+  tpahereReceived: "%player% wants you to teleport to them! \nUse /tpaccept to accept or /tpdeny to deny!"
+  ownRequestDenied: "%player% has denied your teleportation request!"
+  otherRequestDenied: "You have denied the request!"
+  vanishEnabledSelf: "You have been vanished!"
+  vanishDisabledSelf: "You have been unvanished!"
+  vanishEnabledOther: "%player% has been vanished!"
+  vanishDisabledOther: "%player% has been unvanished!"
+  killSelf: "You have been killed!"
+  killOther: "You have killed %player%!"
+  tpallWarningSelf: "This command will teleport every online player to you! \nUse /confirm to execute the command!"
+  tpallWarningOther: "This command will teleport every online player to %player%! \nUse /confirm to execute the command!"
+  noPendingConfirmation: "You don't have any pending confirmations!"
+  confirmedCommand: "Confirmed! Command executing..."
+  timeSet: "You have set the server time to %time%"
+  ptimeSet: "You have set your personal time to %time%"
+  getPingSelf: "Your ping is %ping%!"
+  getPingOther: "%player%'s ping is %ping%!"
+  inventoryClearWarningSelf: "This command will delete every item in your inventory! \nUse /confirm to execute the command!"
+  inventoryClearWarningOther: "This command will delete every item in %player%'s inventory! \nUse /confirm to execute the command!"
+  inventoryCleared: "Your inventory has been cleared!"
+  tpToggledOff: "You can no longer receive teleportation requests. \nUse /tptoggle again to receive requests again!"
+  tpToggleOn: "You can receive teleportation requests again!"
+  targetTpToggledOff: "%player% doesn't accept teleportation requests."
+  playtimeSelf: "You have played: %time%"
+  playtimeOther: "%player% has played: %time%"

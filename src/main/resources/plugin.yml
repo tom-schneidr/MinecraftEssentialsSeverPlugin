@@ -1,0 +1,111 @@
+name: essentials
+main: io.essentials.Essentials
+version: 0.0.1
+api-version: 1.15
+
+commands:
+  feed:
+    description: Fills your hunger bar
+    usage: /<command> <player>
+    aliases:
+      - eat
+
+  god:
+    description: Become invulnerable
+    usage: /<command> <player>
+
+  heal:
+    description: Fills your health bar
+    usage: /<command> <player>
+
+  fly:
+    description: Gives you the ability to fly
+    usage: /<command> <player>
+
+  craft:
+    description: Open a workbench
+    usage: /<command>
+
+  enderchest:
+    description: Open your enderchest
+    usage: /<command> <player>
+    aliases:
+      - ec
+
+  tpa:
+    description: Ask to teleport to another player
+    usage: /<command> <player>
+
+  tpahere:
+    description: Ask another player to teleport to you
+    usage: /<command> <player>
+
+  tpaccept:
+    description: Accept a teleportation request
+    usage: /<command>
+    aliases:
+      - tpyes
+    
+  tpdeny:
+    description: Deny a teleportation request
+    usage: /<command>
+
+  invsee:
+    description: Inspect a player's inventory
+    usage: /<command> <player>
+
+  gamemode:
+    description: Change the gamemode of a player
+    usage: /<command> <gamemode> <player>
+    aliases:
+      - gm
+
+  vanish:
+    description: Become invisible
+    usage: /<command> <player>
+    aliases:
+      - v
+  
+  kill:
+    description: Kill a player
+    usage: /<command> <player>
+
+  tpall:
+    description: Teleport everyone to a player
+    usage: /<command> <player>
+
+  confirm:
+    description: Confirm a command
+    usage: /<command>
+
+  time:
+    description: Set the server time
+    usage: /<command> <time>
+
+  ptime:
+    description: Set your personal time
+    usage: /<command> <time>
+
+  smite:
+    description: Summon a lightning!
+    usagen: /<command>
+
+  ping:
+    description: Get your server connection
+    usage: /<command> <player>
+
+  clearinventory:
+    description: Clear every item in a players inventory
+    usage: /<command> player
+    aliases:
+      - ci
+  
+  playtime:
+    description: Get your total playtime
+    usage: /<command> player
+    aliases:
+      - pt
+
+  tptoggle:
+    description: Toggle teleportation requests
+    usage: /<command>

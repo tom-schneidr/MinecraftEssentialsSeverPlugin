@@ -1,2 +1,2 @@
-# studious-fortnight
+# Essentials
 Minecraft plugin
